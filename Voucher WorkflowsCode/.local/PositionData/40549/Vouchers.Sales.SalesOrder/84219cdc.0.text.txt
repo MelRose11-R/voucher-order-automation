@@ -1,0 +1,17 @@
+Sales Order
+
++--HH ☐
+
+#10301
+
+Cli Lenatlo's IT Services
+
+Contact lalo.salamanca@its.com
+
+Date Voucher List Description Rate Quantity Amount
+
+10/12/2025   VL_1001   Starter 1001 Credit Voucher   55 4 220
+11/12/2025   VL_1002   Starter 1002 Credit Voucher   70 4 280
+11/12/2025   VL_1003   Advance 1003 Credit Voucher   99 4 396
+
+¿

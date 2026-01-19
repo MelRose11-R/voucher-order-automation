@@ -1,0 +1,6 @@
+{
+  "Name": "VoucherTier",
+  "ProjectType": "Process",
+  "Description": "The project will extract the type and quantity of vouchers ordered from a PDF, validate if there are vouchers in stock, and send the purchase confirmation by email.",
+  "MainFile": "Main.xaml"
+}

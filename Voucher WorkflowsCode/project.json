@@ -1,0 +1,111 @@
+{
+  "name": "VoucherTier",
+  "projectId": "8dc0af2a-af11-4db9-88f2-1bc4c140aece",
+  "description": "The project will extract the type and quantity of vouchers ordered from a PDF, validate if there are vouchers in stock, and send the purchase confirmation by email.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.CommunicationsMining.Activities": "[1.6.0]",
+    "UiPath.Database.Activities": "[2.0.0]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.36.2]",
+    "UiPath.Excel.Activities": "[3.3.1]",
+    "UiPath.IntelligentOCR.Activities": "[6.27.2]",
+    "UiPath.Mail.Activities": "[2.5.10]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.5.10]",
+    "UiPath.OmniPage.Activities": "[1.22.2]",
+    "UiPath.System.Activities": "[25.10.0]",
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[25.10.10]",
+    "UiPath.Word.Activities": "[2.3.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.182.0",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d95a0154-fb3d-422b-81f7-a34b58c308f6",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "46df97e3-6c19-45bc-be22-8783eb619083",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e2ee45a1-0f6f-4d74-8100-f277e4cdee08",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "60e1d088-1fc6-489d-8535-6d53ba031a2c",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bb8b1157-bddf-47ca-bf5e-e3081972045e",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2c3ce3ae-a64c-492d-80fe-cfaf7d6e67cd",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c1f46460-1421-43b2-ba92-bfb433f65385",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

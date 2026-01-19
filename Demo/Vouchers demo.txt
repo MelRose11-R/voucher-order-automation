@@ -1,0 +1,7 @@
+Voucher Order Automation – Demo Video
+
+YouTube:
+https://youtu.be/DIGBhq4nsaA
+
+This demo shows the end-to-end execution of the automation,
+from email ingestion to voucher delivery.
